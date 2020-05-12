@@ -1,0 +1,42 @@
+{
+	"search": [
+		{
+			"keyword": "potato",
+			"varience": ["red", "white", "baby"]
+		},
+		{
+			"keyword": "broccoli",
+			"varience": []
+		},
+		{
+			"keyword": "chilli",
+			"varience": ["red", "green", "small"]
+		},
+		{
+			"keyword": "mushroom",
+			"varience": ["baby", "in packet"]
+		},
+		{
+			"keyword": "cauliflower",
+			"varience": ["small", "big"]
+		},
+		{
+			"keyword": "pumpkin",
+			"varience": []
+		},
+		{
+			"keyword": "turnip",
+			"varience": []
+		},
+		{
+			"keyword": "peeper",
+			"varience": ["red", "green"]
+		}
+	],
+	"post_varience": [
+		"in basket", "in market"
+	],
+	"pre_varience": [
+		"single"
+	]
+}

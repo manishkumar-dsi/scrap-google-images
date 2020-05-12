@@ -1,0 +1,7 @@
+{
+	"config": {
+		"base_url": "https://www.google.com/search?q=",
+		"download_dir": "../downloads",
+		"data_json_path": "../data.json"
+	}
+}
