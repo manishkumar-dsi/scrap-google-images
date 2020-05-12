@@ -27,7 +27,6 @@ class Data(Load):
 			temp_post_var = []
 
 			keyword_name = search["keyword"]
-			keyword = [keyword_name]
 			
 			temp_pre_var = pre_varience + search["varience"]
 			temp_pre_var = [(i + ' ' + keyword_name).replace(' ', '+') for i in temp_pre_var]

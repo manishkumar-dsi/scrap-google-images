@@ -27,7 +27,7 @@ class Scrap:
 			img = Image.open(orig_path)
 			img = img.resize((self.resize, self.resize), PIL.Image.ANTIALIAS)
 			img.save(new_path)
-		except Exception as e:
+		except Exception:
 			raise
 		else:
 			return
@@ -54,15 +54,16 @@ class Scrap:
 
 		# make dir
 		self.gen_dir(veg_path, str(self.resize))
+		
+		print("\nGenerating for ", keyword)
+		print("Generated path is ", veg_path + "\n")
 
-		# print(images)
 		for i in range(len(images)):
 			src = images[i].get('src')
-			#print(src)
 			if src and ("gstatic.com" in src):
-				print(src)
 				img_name = self.randomStringDigits(6) + ".jpg"
 				orig_img_path = orig_veg_dir + img_name
+				print("-", keyword + '_' + img_name, "scrapped")
 				urllib.request.urlretrieve(src, orig_img_path)
 
 				resized_img_path = resized_veg_dir + img_name
