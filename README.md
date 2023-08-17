@@ -10,3 +10,12 @@ This JSON has the following keys:
   - variance: What variance do you want to put in the search? This could be color, size, etc. This is an array.
 - post_varience: This will add extra parameters to the search keyword. This will be added after the search keyword
 - pre_varience: Same as post_varience but parameters will be added before the search keyword.
+
+# How to configure the download directory
+This tool is very configurable. 
+You can configure:
+- Image download directory
+- data.json path
+
+This can be configured from config.json. 
+Path for this file: **lib > config.py**
